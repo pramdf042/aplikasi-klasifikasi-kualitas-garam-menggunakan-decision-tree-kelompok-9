@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 st.set_page_config(
-    page_title="Sentimen Analysis",
+    page_title="Klasifikasi Kualitas Garam",
     page_icon='https://cdn-icons-png.flaticon.com/512/1998/1998664.png',
     layout='centered',
     initial_sidebar_state="expanded",
@@ -22,7 +22,7 @@ st.set_page_config(
 st.write("""
 <center><h2 style = "text-align: CENTER;">KLASIFIKASI KUALITAS GARAM MENGGUNAKAN DECISION TREE </h2></center>
 """,unsafe_allow_html=True)
-st.write("### Dosen Pengampu : Dr. FIKA HASTARITA RACHMAN, ST., M.Eng",unsafe_allow_html=True)
+st.write("### Dosen Pengampu : Eka Mala Sari Rochman, S.Kom., M.Kom",unsafe_allow_html=True)
 
 with st.container():
     with st.sidebar:
